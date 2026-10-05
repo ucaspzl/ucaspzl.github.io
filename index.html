@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhonglong Peng</title>
+  <meta name="description" content="Zhonglong Peng, master's student at UCAS and the Institute of Physics, CAS. Research in crystal structure generation and powder X-ray diffraction.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2310243c'/%3E%3Cpath d='M8 9h16L9 23h15' fill='none' stroke='%23ffffff' stroke-width='2.6' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-en="Skip to content" data-zh="跳转到正文">Skip to content</a>
+  <main id="main">
+    <header class="introduction">
+      <div class="name-row">
+        <h1><span data-en="Zhonglong Peng" data-zh="彭忠龙">Zhonglong Peng</span><span class="alternate-name" data-en="彭忠龙" data-zh="Zhonglong Peng">彭忠龙</span></h1>
+        <button id="language-toggle" class="language-button" type="button" aria-label="切换到中文">中文</button>
+      </div>
+      <p data-en="I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, Chinese Academy of Sciences." data-zh="我是中国科学院大学人工智能专业的硕士研究生，在中国科学院物理研究所开展研究。">I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, Chinese Academy of Sciences.</p>
+      <p data-en="My research focuses on crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature." data-zh="我的研究主要围绕晶体结构生成与粉末 X 射线衍射（PXRD）分析，包括金属有机框架的几何生成模型，以及从衍射谱中识别多物相。同时，我也参与科学文献中晶体学数据的抽取、检查与相关工具开发。">My research focuses on crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature.</p>
+      <p class="quick-links"><a href="mailto:2683115458@qq.com">2683115458@qq.com</a><span aria-hidden="true"> / </span><a href="#research" data-en="Research" data-zh="研究">Research</a><span aria-hidden="true"> / </span><a href="#experience" data-en="Experience" data-zh="经历">Experience</a></p>
+    </header>
+
+    <section id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading" data-en="Research" data-zh="研究工作">Research</h2>
+      <article class="paper">
+        <a class="paper-figure" href="assets/anchorpose.png" target="_blank" rel="noopener" aria-label="View the AnchorPose method figure"><img src="assets/anchorpose.png" width="2477" height="852" alt="AnchorPose method: anchor representation, coordinate generation, rigid reconstruction, and periodic MOF assembly"></a>
+        <div class="paper-text">
+          <h3>AnchorPose for Geometry-Aware MOF Assembly through Meso-Grained Pose Generation</h3>
+          <p class="authors"><strong>Zhonglong Peng</strong>, Rui Jiao, Chang Chen, Geng Zhong, Qiuliang Liu, Shifeng Jin</p>
+          <p class="paper-status" data-en="Manuscript, 2026" data-zh="研究稿件，2026">Manuscript, 2026</p>
+          <p data-en="A Bayesian flow model that generates building-block poses through fixed-identity anchor atoms and rigid reconstruction for periodic MOF assembly." data-zh="利用固定身份的锚点原子表示构建块姿态，结合贝叶斯流模型与刚体重建，生成周期 MOF 的空间组装。">A Bayesian flow model that generates building-block poses through fixed-identity anchor atoms and rigid reconstruction for periodic MOF assembly.</p>
+          <p class="paper-links"><a href="assets/anchorpose.png" target="_blank" rel="noopener" data-en="method figure" data-zh="方法图">method figure</a></p>
+        </div>
+      </article>
+      <article class="paper">
+        <a class="paper-figure" href="assets/phasematcher.png" target="_blank" rel="noopener" aria-label="View the PhaseMatcher method figure"><img src="assets/phasematcher.png" width="1752" height="897" alt="PhaseMatcher progressively identifies phases and updates their spectral contributions" loading="lazy"></a>
+        <div class="paper-text">
+          <h3>PhaseMatcher: Autoregressive Phase-Set Identification with Spectral Decomposition</h3>
+          <p class="authors"><strong>Zhonglong Peng</strong>, Qiuliang Liu, Chang Chen, Geng Zhong, Qi Li, Lihong Wang, Lan Jiang, Shifeng Jin</p>
+          <p class="paper-status" data-en="Manuscript, 2026" data-zh="研究稿件，2026">Manuscript, 2026</p>
+          <p data-en="An autoregressive model for multiphase PXRD analysis. At each step, it re-estimates all selected phase contributions from the original pattern before identifying the next phase." data-zh="面向多物相 PXRD 分析的自回归模型。每一步都从原始谱图中联合重估已选物相的贡献，再识别下一物相。">An autoregressive model for multiphase PXRD analysis. At each step, it re-estimates all selected phase contributions from the original pattern before identifying the next phase.</p>
+          <p class="paper-links"><a href="assets/phasematcher.png" target="_blank" rel="noopener" data-en="method figure" data-zh="方法图">method figure</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section id="software" aria-labelledby="software-heading">
+      <h2 id="software-heading" data-en="Scientific data and software" data-zh="科学数据与软件">Scientific data and software</h2>
+      <div class="software-entry">
+        <h3 data-en="CSDD and literature-to-CIF workflows" data-zh="CSDD 与文献到 CIF 的数据工作流">CSDD and literature-to-CIF workflows</h3>
+        <p data-en="I contribute to crystallographic data extraction, validation, human review, and database ingestion, including symmetry-constrained cell completion and checks on atomic coordinates and occupancies." data-zh="参与晶体学数据的抽取、校验、人工审核与数据库入库，开展对称性约束下的晶胞补全，以及原子坐标和占位检查。">I contribute to crystallographic data extraction, validation, human review, and database ingestion, including symmetry-constrained cell completion and checks on atomic coordinates and occupancies.</p>
+      </div>
+      <div class="software-entry">
+        <h3 data-en="MatElab diffraction plugins" data-zh="MatElab 衍射插件">MatElab diffraction plugins</h3>
+        <p data-en="I contributed diffraction-format conversion and phase-search tools to the MatElab electronic laboratory notebook." data-zh="参与 MatElab 电子实验记录本的衍射数据格式转换与物相检索工具开发。">I contributed diffraction-format conversion and phase-search tools to the MatElab electronic laboratory notebook.</p>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading" data-en="Experience" data-zh="工作经历">Experience</h2>
+      <div class="experience-entry">
+        <div class="entry-heading"><h3 data-en="DP Technology" data-zh="深势科技">DP Technology</h3><span class="date" data-en="May 2026–" data-zh="2026 年 5 月起">May 2026–</span></div>
+        <p data-en="Biomedical AI Agent Engineering Intern. Experimental development of Markush R-group structuring for chemical patent extraction in PharmMaster." data-zh="生物医药 AI Agent 工程师（实习）。参与 PharmMaster 的化学专利提取，负责 Markush R 基团结构化的实验开发。">Biomedical AI Agent Engineering Intern. Experimental development of Markush R-group structuring for chemical patent extraction in PharmMaster.</p>
+      </div>
+      <div class="experience-entry">
+        <div class="entry-heading"><h3 data-en="Chaotiancai Technology, Beijing" data-zh="超天才技术开发（北京）">Chaotiancai Technology, Beijing</h3><span class="date" data-en="Feb–Apr 2026" data-zh="2026 年 2–4 月">Feb–Apr 2026</span></div>
+        <p data-en="Agent Developer Intern. Voice-agent prototypes, conversation memory, and tool-call tracing." data-zh="Agent 开发工程师（实习）。参与语音智能体原型、会话记忆与工具调用追踪开发。">Agent Developer Intern. Voice-agent prototypes, conversation memory, and tool-call tracing.</p>
+      </div>
+    </section>
+
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading" data-en="Education" data-zh="教育经历">Education</h2>
+      <div class="education-entry"><div class="entry-heading"><h3 data-en="University of Chinese Academy of Sciences" data-zh="中国科学院大学">University of Chinese Academy of Sciences</h3><span class="date" data-en="2024–present" data-zh="2024 年至今">2024–present</span></div><p data-en="Master’s program in Artificial Intelligence. Research training at the Institute of Physics, CAS." data-zh="人工智能硕士，在中国科学院物理研究所培养。">Master’s program in Artificial Intelligence. Research training at the Institute of Physics, CAS.</p></div>
+      <div class="education-entry"><div class="entry-heading"><h3 data-en="Central South University of Forestry and Technology" data-zh="中南林业科技大学">Central South University of Forestry and Technology</h3><span class="date">2020–2024</span></div><p data-en="Bachelor’s degree in Wood Science and Engineering." data-zh="木材科学与工程学士。">Bachelor’s degree in Wood Science and Engineering.</p></div>
+    </section>
+  </main>
+</body>
+</html>
