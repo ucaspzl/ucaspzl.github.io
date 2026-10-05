@@ -19,7 +19,7 @@
         <button id="language-toggle" class="language-button" type="button" aria-label="切换到中文">中文</button>
       </div>
       <p data-en="I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, Chinese Academy of Sciences." data-zh="我是中国科学院大学人工智能专业的硕士研究生，在中国科学院物理研究所开展研究。">I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, Chinese Academy of Sciences.</p>
-      <p data-en="My research focuses on crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature." data-zh="我的研究主要围绕晶体结构生成与粉末 X 射线衍射（PXRD）分析，包括金属有机框架的几何生成模型，以及从衍射谱中识别多物相。同时，我也参与科学文献中晶体学数据的抽取、检查与相关工具开发。">My research focuses on crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature.</p>
+      <p data-en="My research focuses on AI for Science (AI4S), particularly crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature." data-zh="我的研究方向是 AI for Science（AI4S），主要围绕晶体结构生成与粉末 X 射线衍射（PXRD）分析，包括金属有机框架的几何生成模型，以及从衍射谱中识别多物相。同时，我也参与科学文献中晶体学数据的抽取、检查与相关工具开发。">My research focuses on AI for Science (AI4S), particularly crystal structure generation and powder X-ray diffraction (PXRD) analysis. I work on geometric generative models for metal–organic framework assembly and multiphase identification from diffraction patterns. I also develop tools for extracting and checking crystallographic data from scientific literature.</p>
       <p class="quick-links"><a href="mailto:pengzhonglong24@mails.ucas.ac.cn">pengzhonglong24@mails.ucas.ac.cn</a><span aria-hidden="true"> / </span><a href="#research" data-en="Research" data-zh="研究">Research</a><span aria-hidden="true"> / </span><a href="#experience" data-en="Experience" data-zh="经历">Experience</a></p>
     </header>
 
@@ -45,13 +45,36 @@
           <p class="paper-links"><a href="assets/phasematcher.png" target="_blank" rel="noopener" data-en="method figure" data-zh="方法图">method figure</a></p>
         </div>
       </article>
+
+      <article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2610.01315" target="_blank" rel="noopener" aria-label="Read the EP-Flow paper"><img src="assets/ep-flow.png" width="1007" height="500" alt="EP-Flow method: occupancy constraints, double centering, joint flow matching, and Sinkhorn recovery" loading="lazy"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2610.01315" target="_blank" rel="noopener">EP-Flow: Disordered Crystal Structure Prediction without Site-Level Annotations</a></h3>
+          <p class="authors">Qiuliang Liu, Liming Wu, Qi Li, <strong>Zhonglong Peng</strong>, Chang Chen, Xiaolong Chen, Wenbing Huang, Shifeng Jin</p>
+          <p class="paper-status">NeurIPS 2026</p>
+          <p data-en="Formula-conditioned generation of disordered crystal structures. EP-Flow jointly generates occupancies, atomic coordinates, and lattice parameters through flow matching with composition and site-occupancy constraints." data-zh="根据化学组成生成无序晶体结构。EP-Flow 通过带组成与位点占位约束的流匹配，联合生成占位分布、原子坐标和晶格参数。">Formula-conditioned generation of disordered crystal structures. EP-Flow jointly generates occupancies, atomic coordinates, and lattice parameters through flow matching with composition and site-occupancy constraints.</p>
+        </div>
+      </article>
+      <article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2609.28987" target="_blank" rel="noopener" aria-label="Read the generative crystallographic phasing paper"><img src="assets/phigen.png" width="1102" height="592" alt="PhiGen method: symmetry-expanded triplet graph, phase generation, and Fourier synthesis" loading="lazy"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2609.28987" target="_blank" rel="noopener">Generative crystallographic phasing through invariant relationships</a></h3>
+          <p class="authors">Qi Li, Rui Jiao, Liming Wu, Chang Chen, Tiannian Zhu, Bintang Wang, Qiuliang Liu, <strong>Zhonglong Peng</strong>, Munan Hao, YingPeng Yu, Lin Yao, Wei Ding, Mao Su, Lei Bai, Yang Liu, Hongming Weng, Wenbing Huang, Shifeng Jin, Xiaolong Chen</p>
+          <p class="paper-status" data-en="arXiv preprint, 2026" data-zh="arXiv 预印本，2026">arXiv preprint, 2026</p>
+          <p data-en="PhiGen learns origin-independent phase relationships to recover diffraction phases. It combines symmetry constraints with generative models for binary phases in centrosymmetric crystals and continuous phases in non-centrosymmetric crystals." data-zh="PhiGen 学习不依赖原点选择的相位关系，结合晶体对称性约束与生成模型，恢复中心对称晶体的二值相位和非中心对称晶体的连续相位。">PhiGen learns origin-independent phase relationships to recover diffraction phases. It combines symmetry constraints with generative models for binary phases in centrosymmetric crystals and continuous phases in non-centrosymmetric crystals.</p>
+        </div>
+      </article>
     </section>
 
     <section id="software" aria-labelledby="software-heading">
       <h2 id="software-heading" data-en="Scientific data and software" data-zh="科学数据与软件">Scientific data and software</h2>
       <div class="software-entry">
-        <h3 data-en="CSDD and literature-to-CIF workflows" data-zh="CSDD 与文献到 CIF 的数据工作流">CSDD and literature-to-CIF workflows</h3>
-        <p data-en="I contribute to crystallographic data extraction, validation, human review, and database ingestion, including symmetry-constrained cell completion and checks on atomic coordinates and occupancies." data-zh="参与晶体学数据的抽取、校验、人工审核与数据库入库，开展对称性约束下的晶胞补全，以及原子坐标和占位检查。">I contribute to crystallographic data extraction, validation, human review, and database ingestion, including symmetry-constrained cell completion and checks on atomic coordinates and occupancies.</p>
+        <h3 data-en="CSDD: Crystal Structure and Diffraction Database" data-zh="CSDD 晶体结构与衍射数据库">CSDD: Crystal Structure and Diffraction Database</h3>
+        <p data-en="I contribute to the development of CSDD, which brings together crystal structures, powder and single-crystal diffraction data, and the original literature. It covers X-ray and neutron diffraction, with tools for element-based search, interactive structure visualization, multiwavelength diffraction calculation, and phase identification from powder patterns or single-crystal cell parameters." data-zh="我参与 CSDD 晶体结构与衍射数据库建设，将晶体结构、粉末与单晶衍射数据和原始文献关联起来。数据库涵盖 X 射线与中子衍射，支持按元素检索、三维结构交互展示、多波长衍射计算，以及基于粉末谱图或单晶晶胞参数的物相检索。">I contribute to the development of CSDD, which brings together crystal structures, powder and single-crystal diffraction data, and the original literature. It covers X-ray and neutron diffraction, with tools for element-based search, interactive structure visualization, multiwavelength diffraction calculation, and phase identification from powder patterns or single-crystal cell parameters.</p>
+      </div>
+      <div class="software-entry">
+        <h3 data-en="CIFditor" data-zh="CIFditor 文献提取与 CIF 审核编辑">CIFditor</h3>
+        <p data-en="I work on a literature-to-CIF workflow for extracting crystallographic information from papers, checking and editing CIF records, and preparing reviewed data for database ingestion. The work includes symmetry-constrained cell completion, checks on atomic coordinates and occupancies, and human review against the source literature." data-zh="我参与文献到 CIF 的提取、审核与编辑流程开发，将论文中的晶体学信息整理为可审核的 CIF 记录，经人工确认后入库。相关工作包括对称性约束下的晶胞参数补全、原子坐标与占位检查，以及对照原始文献的人工核验。">I work on a literature-to-CIF workflow for extracting crystallographic information from papers, checking and editing CIF records, and preparing reviewed data for database ingestion. The work includes symmetry-constrained cell completion, checks on atomic coordinates and occupancies, and human review against the source literature.</p>
       </div>
       <div class="software-entry">
         <h3 data-en="MatElab diffraction plugins" data-zh="MatElab 衍射插件">MatElab diffraction plugins</h3>
